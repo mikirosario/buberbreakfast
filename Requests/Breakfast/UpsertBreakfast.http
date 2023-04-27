@@ -1,0 +1,20 @@
+@id=9d09995b-1b92-4d13-832a-2fbbfb9ee3c6
+
+PUT https://localhost:7158/breakfasts/{{id}}
+Content-Type: application/json
+
+{
+    "name": "V",
+    "description": "Meaty everything!",
+    "startDateTime": "2022-04-08T08:00:00",
+    "endDateTime": "2022-04-08T11:00:00",
+    "savory": [
+        "Meatmeal",
+        "Meat Toast",
+        "Iberian ham",
+        "Tuna salad"
+    ],
+    "Sweet": [
+        "Raw flesh"
+    ]
+}
